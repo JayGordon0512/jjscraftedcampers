@@ -22,16 +22,21 @@ export default function Home() {
         </nav>
       </header>
 
-      <section className="text-center py-20 bg-cover bg-center" style={{ backgroundImage: "url('/van-hero.jpg')" }}>
-        <div className="bg-black bg-opacity-40 p-6 inline-block rounded-xl">
-          <h2 className="text-4xl font-bold text-white mb-4">Crafted Comfort, Wherever You Roam</h2>
-          <p className="text-lg text-white mb-6">Boutique camper van conversions tailored for modern explorers and weekend wanderers.</p>
-          <div className="space-x-4">
-            <button className="bg-[#5C6F68] text-white px-6 py-2 rounded">Explore Our Builds</button>
-            <button className="bg-white text-[#5C6F68] px-6 py-2 rounded border border-[#5C6F68]">Book a Free Consultation</button>
-          </div>
-        </div>
-      </section>
+     <section
+  className="relative h-[90vh] bg-cover bg-center flex items-center justify-center"
+  style={{ backgroundImage: "url('/van-hero.jpg')" }}
+>
+  <div className="bg-black bg-opacity-40 p-8 rounded-xl text-center max-w-2xl mx-auto">
+    <h2 className="text-5xl font-bold text-white mb-4">Crafted Comfort, Wherever You Roam</h2>
+    <p className="text-xl text-white mb-6">
+      Boutique camper van conversions tailored for modern explorers and weekend wanderers.
+    </p>
+    <div className="space-x-4">
+      <button className="bg-[#5C6F68] text-white px-6 py-3 rounded">Explore Our Builds</button>
+      <button className="bg-white text-[#5C6F68] px-6 py-3 rounded border border-[#5C6F68]">Book a Free Consultation</button>
+    </div>
+  </div>
+</section>
 
       <section id="about" className="py-16 px-6 text-center">
         <h3 className="text-3xl font-semibold mb-4">About Us</h3>
