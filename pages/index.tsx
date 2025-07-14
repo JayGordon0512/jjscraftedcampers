@@ -28,10 +28,15 @@ export default function Home() {
     <p className="text-xl text-white mb-6">
       Boutique camper van conversions tailored for modern explorers and weekend wanderers.
     </p>
-    <div className="space-x-4">
-      <button className="bg-[#5C6F68] text-white px-6 py-3 rounded">Explore Our Builds</button>
-      <button className="bg-white text-[#5C6F68] px-6 py-3 rounded border border-[#5C6F68]">Book a Free Consultation</button>
-    </div>
+    <<div className="space-x-4">
+  <a href="#builds">
+    <button className="bg-[#5C6F68] text-white px-6 py-2 rounded">Explore Our Builds</button>
+  </a>
+  <a href="#contact">
+    <button className="bg-white text-[#5C6F68] px-6 py-2 rounded border border-[#5C6F68]">Book a Free Consultation</button>
+  </a>
+</div>
+
   </div>
 </section>
 
