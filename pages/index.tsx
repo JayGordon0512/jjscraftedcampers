@@ -8,19 +8,16 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-      <header className="bg-[#5C6F68] text-white p-4 flex justify-between items-center">
-        <div className="flex items-center space-x-3">
-  <img src="/logo.png" alt="JJ's Logo" className="h-10 w-auto" />
-  <h1 className="text-xl font-bold">JJ's Crafted Campers</h1>
-</div>
+      <header className="bg-[#5C6F68] text-white py-6 flex flex-col items-center">
+  <img src="/logo.png" alt="JJ's Logo" className="h-16 mb-4" />
 
-        <nav className="space-x-4">
-          <a href="#about" className="hover:underline">About</a>
-          <a href="#builds" className="hover:underline">Builds</a>
-          <a href="#process" className="hover:underline">Process</a>
-          <a href="#contact" className="hover:underline">Contact</a>
-        </nav>
-      </header>
+  <nav className="space-x-6 text-lg font-medium">
+    <a href="#about" className="hover:underline">About</a>
+    <a href="#builds" className="hover:underline">Builds</a>
+    <a href="#process" className="hover:underline">Process</a>
+    <a href="#contact" className="hover:underline">Contact</a>
+  </nav>
+</header>
 
      <section
   className="relative h-[90vh] bg-cover bg-center flex items-center justify-center"
