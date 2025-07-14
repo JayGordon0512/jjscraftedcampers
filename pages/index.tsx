@@ -9,7 +9,11 @@ export default function Home() {
       </Head>
 
       <header className="bg-[#5C6F68] text-white p-4 flex justify-between items-center">
-        <h1 className="text-xl font-bold">JJ's Crafted Campers</h1>
+        <div className="flex items-center space-x-3">
+  <img src="/logo.png" alt="JJ's Logo" className="h-10 w-auto" />
+  <h1 className="text-xl font-bold">JJ's Crafted Campers</h1>
+</div>
+
         <nav className="space-x-4">
           <a href="#about" className="hover:underline">About</a>
           <a href="#builds" className="hover:underline">Builds</a>
